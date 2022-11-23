@@ -12,6 +12,7 @@ public class FileUtils {
         for (File file : files) {
             if (file.isDirectory()) {
                 dir.dirList.add(file);
+                
             } else if (isImage(file)) {
                 dir.imgList.add(file);
             }
